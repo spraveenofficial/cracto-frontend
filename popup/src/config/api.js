@@ -1,6 +1,6 @@
 // Centralized API configuration
 export const API_CONFIG = {
-    OPENAI_API_KEY: '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',
+    OPENAI_API_KEY: 'test',
     OPENAI_BASE_URL: 'https://api.openai.com/v1/chat/completions',
     MODEL: 'gpt-3.5-turbo',
     MAX_TOKENS: 150,
