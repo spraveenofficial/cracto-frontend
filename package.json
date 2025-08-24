@@ -1,0 +1,21 @@
+{
+  "name": "website-highlight-saver-extension",
+  "version": "2.1.0",
+  "description": "Chrome extension for saving and managing text highlights with AI summarization",
+  "scripts": {
+    "build": "node build.js",
+    "build:bash": "./build.sh",
+    "dev": "node dev.js",
+    "dev:popup": "cd popup && npm run dev",
+    "clean": "rm -rf popup/dist popup/index.html popup/assets",
+    "install:popup": "cd popup && npm install"
+  },
+  "keywords": [
+    "chrome-extension",
+    "highlights",
+    "ai",
+    "summarization"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+# Global node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React popup app build artifacts
+popup/node_modules/
+popup/.env
+popup/.env.local
+popup/.env.development.local
+popup/.env.test.local
+popup/.env.production.local
+popup/assets
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.vscode
+
+# Optional: If you want to rebuild instead of committing
+# Uncomment below if you don’t want to commit build folder
+# popup/build/
